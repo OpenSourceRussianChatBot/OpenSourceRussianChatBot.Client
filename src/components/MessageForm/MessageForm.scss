@@ -1,0 +1,36 @@
+.MessageForm {
+	flex-grow: 0;
+	flex-shrink: 0;
+	position: relative;
+	&__Input {
+		display: block;
+		padding: 20px 80px 20px 20px;
+		border: 0;
+		font-size: 16px;
+		line-height: 20px;
+		width: 100%;
+		height: 60px;
+		outline: none;
+		background: #f0f0f0;
+		transition: background 0.2s;
+		&:focus {
+			background: #fff;
+		}
+	}
+	&__Submit {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		margin: auto;
+		width: 60px;
+		height: 60px;
+		background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgaGVpZ2h0PSIzMiIgaWQ9InN2ZzQxNTIiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIiB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzIGlkPSJkZWZzNDE1NCIvPjxnIGlkPSJsYXllcjEiPjxnIGlkPSJnNDUzNCIgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzBlNmVhMTtzdHJva2Utd2lkdGg6MC43NDYyODQxOTtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utb3BhY2l0eToxIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjEzOTEwOTksMS4xMzkxMDk5LC0xLjEzOTEwOTksMS4xMzkxMDk5LDk2LjAzNzU2MSwyOS44MjUwOTUpIj48cGF0aCBkPSJtIC00MS4yLDE3LjcyNjU0NSA2LjgsMTUuODczNDU0IC02LjgsLTMuMDA5MTMgLTYuOCwzLjAwOTEzIHoiIGlkPSJyZWN0NDUyOSIgc3R5bGU9Im9wYWNpdHk6MTtmaWxsOm5vbmU7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOiMwZTZlYTE7c3Ryb2tlLXdpZHRoOjAuNzQ2Mjg0MTk7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1vcGFjaXR5OjEiLz48cGF0aCBkPSJtIC00MS4yMDEwMjcsMTguNTc3OTIzIC0wLjAzMTE5LDEyLjA2NjIwNiIgaWQ9InBhdGg0NTMyIiBzdHlsZT0iZmlsbDpub25lO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTojMGU2ZWExO3N0cm9rZS13aWR0aDowLjc0NjI4NDE5O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utb3BhY2l0eToxIi8+PC9nPjwvZz48L3N2Zz4=')
+			center no-repeat;
+		border: 0;
+		cursor: pointer;
+		&:hover {
+			background-color: rgba(0, 0, 0, 0.03);
+		}
+	}
+}
